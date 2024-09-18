@@ -1,9 +1,8 @@
 
 import "./globals.css";
 
-
 export const metadata = {
-  title: "Next-Set-UP",
+  title: "Next Set UP",
   description: "Next app",
   metadataBase: new URL("https://next-js-setup-nine.vercel.app/"),
   openGraph: {
@@ -20,5 +19,5 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+};
 
