@@ -1,7 +1,6 @@
 
 import "./globals.css";
 
-
 export const metadata = {
   title: "Next Set UP",
   description: "Next app",
