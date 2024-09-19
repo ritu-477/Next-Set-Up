@@ -12,7 +12,7 @@ const Office = () => {
                 width={500}
                 height={500}
                 alt="Cartoon"
-                className='pt-4'
+                className='pt-4 pointer-events-none'
             />
         </div>
     );
