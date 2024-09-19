@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link'
 
 const Office = () => {
     return (
@@ -15,7 +14,6 @@ const Office = () => {
                 alt="Cartoon"
                 className='pt-4'
             />
-            <Link className='pt-4 font-bold' href="/dashboard">Click</Link>
         </div>
     );
 };
