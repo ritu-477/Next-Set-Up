@@ -18,8 +18,7 @@ const Hero = () => {
                 <button className='p-4 w-[150px] bg-blue-400 border rounded-xl text-white font-medium text-2xl mr-6' onClick={() => setCount(count / 2)}>Divide</button>
             </div>
             <h2
-                className={`p-4 w-[200px] bg-yellow-500 border rounded-xl font-semibold text-xl text-center my-7 ${changeValue ? 'text-red-500' : 'text-black bg-purple-300'
-                    }`}
+                className={`p-4 w-[200px] border rounded-xl font-semibold text-xl text-center my-7 ${changeValue ? 'bg-yellow-500 text-red-500' : 'bg-purple-300 text-black'}`}
             >
                 {changeValue ? 'Ritu' : 'Johar'}
             </h2>
