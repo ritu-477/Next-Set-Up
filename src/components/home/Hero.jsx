@@ -18,13 +18,11 @@ const Hero = () => {
                 <button className='p-4 w-[150px] bg-blue-400 border rounded-xl text-white font-medium text-2xl mr-6' onClick={() => setCount(count / 2)}>Divide</button>
             </div>
             <h2
-                className={`p-4 w-[200px] bg-yellow-500 border rounded-xl font-semibold text-xl text-center my-7 ${changeValue ? 'text-black' : 'text-red-500'
+                className={`p-4 w-[200px] bg-yellow-500 border rounded-xl font-semibold text-xl text-center my-7 ${changeValue ? 'text-red-500' : 'text-black bg-purple-300'
                     }`}
             >
                 {changeValue ? 'Ritu' : 'Johar'}
             </h2>
-            {/* <h2 className='p-4 w-[200px] bg-yellow-500 border rounded-xl font-semibold text-xl text-center my-7'> {changeValue ? "Ritu" : "Johar"}</h2> */}
-
             <button className='p-4 w-[200px] bg-black border rounded-xl text-white font-medium text-2xl' onClick={() => setValue(!changeValue)}>Change Value</button>
             <Link className='pt-4 font-bold' href="/office">Click Office</Link>
         </div>
