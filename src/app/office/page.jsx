@@ -1,9 +1,10 @@
 
 import Office from '@/components/about/Office'
-import Hero from '@/components/home/Hero'
 
 
-const office = () => {
+
+
+const page = () => {
     return (
         <>
             <Office />
@@ -11,4 +12,4 @@ const office = () => {
     )
 }
 
-export default office
+export default page

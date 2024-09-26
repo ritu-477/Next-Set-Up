@@ -1,4 +1,4 @@
- "use clint"
+ "use client"
 
 import Hero from "@/components/home/Hero"
 import ContactUs from "@/components/home/ContactUs"

@@ -24,14 +24,14 @@ export const ContactUs = () => {
 
     return (
         <div className='flex flex-col justify-center items-center pt-4 h-screen'>
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className='flex justify-center items-center'>
                 <label>Name</label>
                 <input type="text" name="user_name" className='border border-black p-3 mx-2' />
                 <label>Email</label>
                 <input type="email" name="user_email" className='border border-black p-3 mx-2' />
-                <label>Message</label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
+                <label htmlFor="Message">Message</label>
+                <textarea id="my-textarea" rows="2" cols="50" placeholder="Message" className='border border-black p-3 mx-2'></textarea>
+                <button className='border border-blue-400 p-3 mx-2 bg-blue-100'>Send</button>
             </form>
         </div>
     );
