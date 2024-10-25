@@ -1,9 +1,6 @@
 
 import Office from '@/components/about/Office'
 
-
-
-
 const page = () => {
     return (
         <>

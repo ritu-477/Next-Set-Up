@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link'
+import { Button } from '../ui/button';
 
 const Hero = () => {
    
@@ -23,6 +24,9 @@ const Hero = () => {
             </h2>
             <button className='p-4 w-[200px] bg-black border rounded-xl text-white font-medium text-2xl' onClick={() => setValue(!changeValue)}>Change Value</button>
             <Link className='p-4 rounded-lg text-center font-bold bg-red-400 mt-4' href="/office">Click Office</Link>
+            <Button variant="primary" onClick={() => console.log('Clicked!')} className='mt-4'>
+                Primary Button
+            </Button>
         </div>
         
     );

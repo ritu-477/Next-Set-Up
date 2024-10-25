@@ -7,7 +7,6 @@ import { BackTop } from "@/components/home/BackTop"
 const page = () => {
   return (
     <>
-      
       <Hero />  
       <ContactUs />
      <BackTop/>
